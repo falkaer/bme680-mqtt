@@ -17,8 +17,8 @@ Press Ctrl+C to exit
 """)
 
 ### MQTT
-broker = '192.168.0.30'
-topic ='test'
+broker = '192.168.1.61'
+topic ='homeassistant'
 
 client = mqtt.Client()
 client.connect(broker)
